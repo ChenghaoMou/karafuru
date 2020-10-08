@@ -18,9 +18,9 @@ Traditional Chinese karafulu in your terminal
 ## 🚀 Features
 
 <center>
-<img src="https://raw.githubusercontent.com/ChenghaoMou/karafulu/master/karafulu1.png?token=AHUICOKVJQOZEIWHJY7746C7P2I4U">
-<img src="https://raw.githubusercontent.com/ChenghaoMou/karafulu/master/karafulu2.png?token=AHUICOJCQW6HLBODEDSZCDK7P2I6G">
-<img src="https://raw.githubusercontent.com/ChenghaoMou/karafulu/master/karafulu3.png?token=AHUICOIDJTWOEYBLZY3DS6S7P2I7G">
+<img src="https://raw.githubusercontent.com/ChenghaoMou/karafuru/master/colors1.png?token=AHUICOOUND5BUYWKXA3RQGS7P2LG2">
+<img src="https://raw.githubusercontent.com/ChenghaoMou/karafuru/master/colors2.png?token=AHUICOJGAJTXPA6PNEMIFCC7P2LH6">
+<img src="https://raw.githubusercontent.com/ChenghaoMou/karafuru/master/colors3.png?token=AHUICON627KEZ6LKE3T7WXS7P2LI6">
 </center>
 
 ## Installation
@@ -32,7 +32,7 @@ pip install karafulu
 ## Usage
 
 ```bash
-python -m karafulu --base [red|blue|green|yellow|black|white|dark|light|metal]
+python -m karafulu --base [red|blue|green|yellow|black|white|dark|light|metal|all]
 ```
 
 ## 🛡 License
