@@ -12,7 +12,7 @@
 [![Semantic Versions](https://img.shields.io/badge/%F0%9F%9A%80-semantic%20versions-informational.svg)](https://github.com/ChenghaoMou/karafuru/releases)
 [![License](https://img.shields.io/github/license/ChenghaoMou/karafuru)](https://github.com/ChenghaoMou/karafuru/blob/master/LICENSE)
 
-Traditional Chinese karafuru in your terminal
+Traditional Chinese colors in your terminal
 </div>
 
 ## 🚀 Features
