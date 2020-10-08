@@ -1,0 +1,10 @@
+# This file contains values from Cookiecutter
+
+default_context:
+  project_name: "karafuru"
+  project_description: "Traditional Chinese colors in your terminal"
+  organization: "None"
+  license: "MIT"
+  version: "0.1.0"
+  github_name: "karafuru"
+  email: "mouchenghao@gmail.com"
