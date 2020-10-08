@@ -110,7 +110,7 @@ check-style:
 	$(BLACK_COMMAND_FLAG)poetry run black --config pyproject.toml --diff --check ./
 	$(DARGLINT_COMMAND_FLAG)poetry run darglint -v 2 **/*.py
 	$(ISORT_COMMAND_FLAG)poetry run isort --settings-path pyproject.toml --check-only **/*.py
-	$(MYPY_COMMAND_FLAG)poetry run mypy --config-file setup.cfg karafuru tests/**/*.py
+	$(MYPY_COMMAND_FLAG)poetry run mypy --config-file setup.cfg karafuru
 
 .PHONY: codestyle
 codestyle:
@@ -118,12 +118,8 @@ codestyle:
 	poetry run isort --settings-path pyproject.toml **/*.py
 	poetry run black --config pyproject.toml ./
 
-.PHONY: test
-test:
-	poetry run pytest
-
 .PHONY: lint
-lint: test check-safety check-style
+lint: check-safety check-style
 
 # Example: make docker VERSION=latest
 # Example: make docker IMAGE=some_name VERSION=0.1.0
