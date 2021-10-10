@@ -6,7 +6,7 @@ build-backend = "poetry.masonry.api"
 
 [tool.poetry]
 name = "karafuru"
-version = "0.1.0"
+version = "0.1.1"
 description = "Traditional Chinese colors in your terminal"
 readme = "README.md"
 authors = [
