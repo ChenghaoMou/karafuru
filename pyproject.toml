@@ -39,7 +39,7 @@ rich = ">=8,<11"
 
 [tool.poetry.dev-dependencies]
 darglint = "^1.8.1"
-isort = "^5.5.4"
+isort = "^5.11.2"
 pyupgrade = "^2.7.2"
 black = "^21.9b0"
 mypy = "^0.910"
